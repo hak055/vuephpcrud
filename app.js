@@ -1,12 +1,15 @@
 var app = new Vue({
 	el: "#root",
 	data: {
-		showingAddModal: true,
-
+		showingAddModal: false,
+		showingEditModal: false,
+		showingDeleteModal: false
 	},
+
 	mounted: function(){
 		console.log("mounted");
 	},
+
 	methods: {
 
 	}
